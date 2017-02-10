@@ -19,6 +19,9 @@ body {
 .img-medium {
     height: 200px;
 }
+.container{
+    width:800px;
+}
 .LEft-Panel .Right-Panel .Center-Panel {
     width :80px;
     padding-right:10px;
@@ -32,4 +35,6 @@ body {
     float:right;
 } 
 
-.Center-Panel
+.Center-Panel{
+    
+}
