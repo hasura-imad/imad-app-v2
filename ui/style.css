@@ -23,9 +23,12 @@ body {
 #navigation li{
     list-style: none;
     font-size: 1.2em;
-    color: orange;
-    text-decoration: none;
     font-weight: bold;
     padding: 0.5em;
     font-family: "Courier New";
+}
+
+#navigation li a{
+    color: orange;
+    text-decoration: none;
 }
