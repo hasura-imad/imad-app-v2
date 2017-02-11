@@ -32,6 +32,8 @@ body {
 #navigation li a{
     color: blue;
     text-decoration: none;
+    border-width:5px;  
+    border-style:inset;
 }
 
 #navigation li a:visited{
