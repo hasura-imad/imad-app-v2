@@ -45,7 +45,7 @@ body {
 .container{
     margin: 0 auto;
     max-width: 720px;
-    font-family: Monospace;
+    font-family: 2rem/1.5 Monospace;
     color: grey;
 }
 
