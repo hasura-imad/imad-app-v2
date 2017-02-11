@@ -23,4 +23,6 @@ body {
 #navigation li{
     list-style: none;
     font-size: 0.8em;
+    padding: 0.5em;
+    font-family: Arial;
 }
