@@ -80,6 +80,9 @@ var  htmlTemplate =   `
 
 return htmlTemplate;
 }
+app.get('/article-three',function(req,res) {
+    res.send('Article 3 requested and will be served here');
+});
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
