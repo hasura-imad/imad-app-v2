@@ -1,0 +1,391 @@
+body {
+    font-family: sans-serif;
+    background-color: white;
+   
+}
+
+.left {
+   margin-top:0px;
+   
+}
+
+#header
+{
+    background-color:rgba(0, 0, 0, 0.81);
+    position:fixed;
+    z-index:2;
+    width:99%;
+    top:0px;
+    
+}
+#menu
+{
+    float:right;
+    margin-top:60px;
+    height:40px;
+   background-image: url(http://brianoswald.com/wp-content/uploads/2016/05/abstract-blue-black-pixels-2560x1024-wallpaper_www.wall321.com_60.jpg);
+    width:75%;
+}
+
+.myarticles{
+    
+   font-family: "Lucida Console", Monaco, monospace;
+    text-align: center;
+    font-size: 150%;
+    
+    
+}  
+
+.loginbox {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    
+    background-color:#7D7B7B;
+    
+    
+}
+
+
+ .loginbody {
+                 max-width: 800px;
+                 margin: 0 auto;
+                 color: black;
+                 font-family: "Times New Roman", Times, serif;
+                 
+                  padding-left: 20px;
+ }
+ 
+ 
+ comment {
+    margin-left: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.menubar
+{
+    width:20%;
+    float:right;
+    color:white;
+    height:100%;
+    padding:5px;
+}
+.menubar div
+{
+    padding:5px;
+    border-bottom:2px solid white;
+    cursor:pointer;
+}
+.text-big {
+    font-size: 300%;
+    color:green;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.img-medium {
+    height: 100px;
+    opacity:0;
+   margin-left:5%;
+   
+}
+.img-small {
+    height: 50px;
+}
+
+#adetails
+{
+  text-align: center;
+    color: white;
+    background-color:  #000000;
+  
+    position: relative;
+    top: -100px;
+    width: 100%;
+    border-radius:0 0 10px 10px;
+    padding: 10px;
+   
+}
+
+#known
+{
+    position:relative;
+    top:80px;
+    
+    width:100%;
+    height:auto;
+    z-index:1;
+}
+#writetome
+{
+	background-color:rgba(255, 0, 0, 0.76);
+	width:100%;
+	height:auto;
+	margin-top:10px;
+	
+	
+}
+#database
+{
+    background-color:#1d1818;
+    height:auto;
+    color:white;
+    width:100%;
+    margin-top:10px;
+    
+}
+#authorname
+{
+	margin-left:16%;
+	margin-top:2%;
+	width:60%;
+	height:20px;
+}
+#datasubmit
+{
+    border:1px solid white;
+    color:white;
+    background-color:red;
+}
+#submitbtn
+{
+	margin-left:38%;
+	margin-top:2%;
+	width:23%;
+	background-color:black;
+	color:white;
+	border:2px solid white;
+	height:40px;
+	margin-bottom:5px;
+	    box-shadow: 6px 7px 9px #000000;
+}
+#submitbtn:active
+{
+     box-shadow: 0px 0px 0px;
+}
+#namelist
+{
+	
+	height:auto;
+	width:100%;
+	
+}
+#namelist>div{
+	margin:5px;
+	background-color:rgb(255,255,255);
+	border-left:8px solid black;
+	border-radius:5px;
+	width:97%;
+    padding: 15px 2px 15px 13px;
+}
+#names
+{
+margin-left:16%;
+
+	
+}
+#adetail
+{
+  text-align: center;
+    color: white;
+    background-color: #000000;
+  
+    position: relative;
+    
+    width: 100%;
+   top:40px;
+    padding: 10px;
+    border-radius:0 0 10px 10px;
+   
+}
+#aboutme
+{
+        background-color: brown;
+    height: auto;
+    margin-top:1000px;
+    width: 82%;
+    padding: 9%;
+    
+}
+#aboutme img
+{
+	margin-left: 12%;
+    box-shadow: 10px 10px 20px black;
+    border-radius: 40px;
+    width: 10%;
+    height: 10%;
+
+}
+#aboutme img:hover
+{
+-ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari */
+    transform: scale(1.2); /* Standard syntax */
+transition: 0.5s
+}
+
+
+
+#content
+{
+   
+   width: 100%;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: 120px;
+    z-index: -1;
+    position: fixed;
+    background-color: black;
+    background-image: url(http://cdn.wonderfulengineering.com/wp-content/uploads/2014/09/blue-wallpaper-21.jpg);
+    
+}
+#maincontent
+{
+   
+    width:50%;
+    height:600px;
+
+     position:static;
+     
+     
+     
+}
+#name
+{
+   
+        color: white;
+    margin-left: 41%;
+    /* margin-top: 60%; */
+    font-size: 20px;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    
+}
+#selfimg
+{
+    border-radius:50%;
+    position:absolute;
+    top:90px;
+    left:19%;
+    -webkit-animation-name: example; 
+    -webkit-animation-duration: 4s; 
+    animation-name: example;
+    animation-duration: 4s;
+    
+}
+#selfimg:hover
+{
+    border-radius:50%;
+   
+    position:absolute;
+    top:90px;
+    left:19%;
+    -webkit-animation-name: example2; 
+    -webkit-animation-duration: 4s; 
+    animation-name: example2;
+    animation-duration: 4s;
+    
+}
+@-webkit-keyframes example {
+    from {transform: rotateY(0deg);}
+    to {transform: rotateY(360deg);}
+}
+
+
+@keyframes example {
+     from {transform: rotateY(0deg);}
+    to {transform: rotateY(360deg);}
+}
+
+@-webkit-keyframes example2 {
+    from {transform: rotateY(0deg);}
+    to {transform: rotateY(360deg);}
+}
+
+
+@keyframes example2 {
+     from {transform: rotateY(0deg);}
+    to {transform: rotateY(360deg);}
+}
+#details
+{
+    color:white;
+    font-size:20px;
+    margin-top:40%;
+    text-align:center;
+    
+   
+}
+.ndetails
+{
+
+    color:white;
+    
+}
+.ncontent
+{
+color:white;
+} 
+
+#footer
+{
+    background-color:rgb(78, 76, 76);
+    color:white;
+    height:auto;
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align:center;
+    width:100%;
+    margin-top:10px;
+}
+#quickview
+{
+    position:fixed;
+    background-color:black;
+    color:white;
+    right:9px;
+    bottom:9px;
+    padding:9px;
+    cursor:pointer;
+    border:3px solid white;
+}
+#quickview:hover
+{
+    background-color:red;
+}
+
+#container
+{
+    display:block;
+    
+}
+#mains
+{background-color:white;
+    color:black;
+    padding:9px;
+    width:98%;
+    margin-top:10px;
+    margin-bottom:10px;
+    height:auto;
+	text-align:center;
+	cursor:pointer;
+    
+}
+footer {
+    font-family: "Times New Roman", Times, serif;
+    background-color: brown;
+    padding-top: 40px;
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+}
+header {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #6B6E6D;
+    text-align: left;
+    font-size: 200%;
+    padding-top: 10px;
+    font-weight: bold;
+}
