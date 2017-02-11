@@ -46,7 +46,7 @@ body {
     margin: 0 auto;
     max-width: 720px;
     font: 2rem/1.5 Monospace;
-    color: grey;
+    color: #525252;
 }
 
 #navigation li a:hover{
