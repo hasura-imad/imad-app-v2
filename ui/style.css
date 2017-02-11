@@ -29,6 +29,16 @@ body {
 }
 
 #navigation li a{
+    color: blue;
+    text-decoration: none;
+}
+
+#navigation li a:hover{
     color: orange;
+    text-decoration: none;
+}
+
+#navigation li a:visited{
+    color: purple;
     text-decoration: none;
 }
