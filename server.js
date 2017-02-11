@@ -80,9 +80,9 @@ app.get('/:articleName', function (req, res) {
   articleName = req.params.articleName;
   res.send(createTemplate(articles[articleName]));
 });
-app.get('/ui/article2.html', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'article2.html'));
-});
+//app.get('/ui/article2.html', function (req, res) {
+ // res.sendFile(path.join(__dirname, 'ui', 'article2.html'));
+//});
 app.get('/ui/article3.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'article3.html'));
 });
