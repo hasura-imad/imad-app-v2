@@ -20,6 +20,21 @@ var articles = {
        
     `
         
+    },
+     'article2':{
+
+    title   :   'Article 2|Yogesh Singla',
+    heading :   'Article 2',
+    date    :   'February 11,2017',
+    content :   `
+        <div>
+            <p>
+                This is the SECOND artilce. Content comes here. Adding more content to check viewability in mobile and laptops. This content will be changed later. Default content comes here. Content1. That's it.
+            </p>
+        </div>
+       
+    `
+        
     }
 };
 
