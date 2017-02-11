@@ -42,6 +42,13 @@ body {
     text-decoration: none;
 }
 
+.container{
+    margin: 0 auto;
+    max-width: 720px;
+    font-family: Monospace;
+    color: grey;
+}
+
 #navigation li a:hover{
     color: orange;
     background: black;
