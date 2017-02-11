@@ -34,7 +34,7 @@ body {
 }
 
 #navigation li a:hover{
-    color: orange;
+    color: orange;!important
     text-decoration: none;
 }
 
