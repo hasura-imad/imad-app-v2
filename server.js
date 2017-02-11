@@ -5,6 +5,36 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
+var article1 ={
+    title   :   'Article 1|Yogesh Singla',
+    heading :   'Article 1',
+    date    :   'February 11,2017',
+    content :   `
+        <div class="container">
+        
+        <div>
+        <a href="/">Home</a>    
+        </div>
+        
+        <hr/>
+        
+        <h3>
+            Article one
+        </h3>
+        <div>
+            11-02-2017
+        </div>
+        
+        <div>
+            <p>
+                This is the first artilce. Content comes here. Adding more content to check viewability in mobile and laptops. This content will be changed later. Default content comes here. Content1. That's it.
+            </p>
+        </div>
+        
+        </div>
+    `
+}
+
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
