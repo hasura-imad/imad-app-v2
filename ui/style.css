@@ -32,7 +32,7 @@ body {
 #navigation li a{
     color: blue;
     text-decoration: none;
-    border-width:0.2em;  
+    border-width:0.066em;  
     border-style:inset;
 }
 
