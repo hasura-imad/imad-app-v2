@@ -5,6 +5,7 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
+//Articles stored here.
 var articles = {
     'article1':{
 
@@ -39,6 +40,7 @@ var articles = {
 };
 
 
+//Function that will render required article.
 function createTemplate(data){
     title   =   data.title;
     date    =   data.date;
@@ -80,39 +82,25 @@ var  htmlTemplate =   `
 
 return htmlTemplate;
 }
-app.get('/article-three',function(req,res) {
-    res.send('Article 3 requested and will be served here');
-});
 
+//Homepage get request answered
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
 
-app.get('/article-one',function(req,res) {
-    res.send('Article one requested and will be served here');
-});
 
-
+//Articles get request answered here.
 app.get('/:articleName', function (req, res) {
   articleName = req.params.articleName;
   res.send(createTemplate(articles[articleName]));
 });
-//app.get('/ui/article2.html', function (req, res) {
- // res.sendFile(path.join(__dirname, 'ui', 'article2.html'));
-//});
-app.get('/ui/article3.html', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'article3.html'));
-});
 
-//app.get('/article-two',function(req,res) {
-//    res.send('Article 2 requested and will be served here');
-//});
-
-
+//CSS
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
+
 
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
