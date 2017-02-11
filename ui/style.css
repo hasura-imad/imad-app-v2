@@ -34,7 +34,7 @@ body {
     text-decoration: none;
     border-width:0.066em;  
     border-style:inset;
-    margin:0.1em;
+    padding:0.1em;
 }
 
 #navigation li a:visited{
