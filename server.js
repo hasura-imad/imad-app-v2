@@ -1,12 +1,27 @@
-var express = require('express');
-var morgan = require('morgan');
+//imported software packages
+var express = require('express');//library used to create the web server
+var morgan = require('morgan');//library used to output logs of our server
 var path = require('path');
 
 var app = express();
 app.use(morgan('combined'));
 
 app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'index.html'));
+  res.sendFile(path.join(__dirname, 'ui', 'index.html'));//when url path '/' is requested , then picks up ui/index.html and sends it contents ..these are called url handlers
+});
+
+app.get('/article-one', function (req, res) {
+   res.sendFile(path.join(__dirname, 'ui', 'article-one.html'));
+});
+
+
+app.get('/article-two', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'article-two.html'));
+});
+
+
+app.get('/article-three', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'article-three.html'));
 });
 
 app.get('/ui/style.css', function (req, res) {
