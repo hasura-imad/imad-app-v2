@@ -1,5 +1,8 @@
 console.log('Loaded!');
 var imgs = document.getElementsByClassName('img-medium');
-imgs[0].onclick = function(){
-    imgs[0].style.display = 'none';
-};
+
+for(var i = 0; i < imgs.length; i++){
+    imgs[i].onclick = function(){
+        imgs[i].style.display = 'none';
+    };
+}
