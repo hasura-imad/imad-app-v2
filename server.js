@@ -35,6 +35,16 @@ var articles = {
             <p>Lorem ipsum is sum of all ipsum lorems. Lorem ipsum is sum of all ipsum lorems. Lorem ipsum is sum of all ipsum lorems. Lorem ipsum is sum of all ipsum lorems. Lorem ipsum is sum of all ipsum lorems. Lorem ipsum is sum of all ipsum lorems. Lorem ipsum is sum of all ipsum lorems. Lorem ipsum is sum of all ipsum lorems. </p>
             <p>Lorem ipsum is sum of all ipsum lorems. Lorem ipsum is sum of all ipsum lorems. Lorem ipsum is sum of all ipsum lorems. Lorem ipsum is sum of all ipsum lorems. Lorem ipsum is sum of all ipsum lorems. Lorem ipsum is sum of all ipsum lorems. Lorem ipsum is sum of all ipsum lorems. Lorem ipsum is sum of all ipsum lorems. </p>
             `
+    },
+    'article-four' : {
+        title: 'Four is more!',
+        heading: 'Article 4',
+        date: '12 Feb, 2017',
+        content: `
+            <p>Lorem ipsum is sum of all ipsum lorems. Lorem ipsum is sum of all ipsum lorems. Lorem ipsum is sum of all ipsum lorems. Lorem ipsum is sum of all ipsum lorems. Lorem ipsum is sum of all ipsum lorems. Lorem ipsum is sum of all ipsum lorems. Lorem ipsum is sum of all ipsum lorems. Lorem ipsum is sum of all ipsum lorems. </p>
+            <p>Lorem ipsum is sum of all ipsum lorems. Lorem ipsum is sum of all ipsum lorems. Lorem ipsum is sum of all ipsum lorems. Lorem ipsum is sum of all ipsum lorems. Lorem ipsum is sum of all ipsum lorems. Lorem ipsum is sum of all ipsum lorems. Lorem ipsum is sum of all ipsum lorems. Lorem ipsum is sum of all ipsum lorems. </p>
+            <p>Lorem ipsum is sum of all ipsum lorems. Lorem ipsum is sum of all ipsum lorems. Lorem ipsum is sum of all ipsum lorems. Lorem ipsum is sum of all ipsum lorems. Lorem ipsum is sum of all ipsum lorems. Lorem ipsum is sum of all ipsum lorems. Lorem ipsum is sum of all ipsum lorems. Lorem ipsum is sum of all ipsum lorems. </p>
+            `
     }
 };
 
