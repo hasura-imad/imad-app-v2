@@ -85,7 +85,7 @@ return htmlTemplate;
 
 //Homepage get request answered
 app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'index.html'));
+  res.sendFile(path.join(__dirname, 'ui', 'indx.html'));
 });
 
 
