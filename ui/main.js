@@ -42,5 +42,7 @@ function show(){
         imgs[i].style.display = "inline";
     }
     imgsBtn.style.display = "none";
+    
     imgShown = 4;
+    imgCount.innerHTML = "Images Visible: " + imgShown;
 }
