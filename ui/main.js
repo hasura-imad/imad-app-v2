@@ -19,7 +19,7 @@ imgs[2].onclick = function(){
 
 imgs[3].onclick = function(){
         imgs[3].style.display = 'none';
-        imgsBtn.style.display = "block";
+        imgsBtn.style.display = "inline block";
 };
 
 function show(){
