@@ -44,7 +44,7 @@ body {
 .container{
     margin: 0 auto;
     max-width: 720px;
-    font: 2rem/1.5 Monospace;
+    font: 1.2rem/1.5 Monospace;
     color: #525252;
 }
 
