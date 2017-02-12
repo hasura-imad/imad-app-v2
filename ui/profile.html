@@ -20,7 +20,16 @@
             <p>Building something amazing bit by bit</p>
             <hr/>
             <div id="footer">
-              This button <button>Click Me</button> has been clicked <span></span> times.
+                First, we made a <a href="/counter">counter endpoint</a>.
+                <code>
+                    var counter = 0;
+                    app.get('/counter', function (req, res) {
+                    counter++;
+                    res.send(counter.toString());
+                });
+                </code>
+                
+                This button <button>Click Me</button> has been clicked <span></span> times.
             </div>
         </div>
         <script type="text/javascript" src="/ui/main.js"></script>
