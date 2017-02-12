@@ -2,26 +2,39 @@ console.log('Loaded!');
 var imgs = document.getElementsByClassName('img-medium');
 var imgsBtn = document.getElementById('imgsBtn');
 var imgCount = document.getElementById('imgCount');
-imgCount.innerHTML = "4";
+var imgShown = 4;
+imgCount.innerHTML = "Images Visible: " + imgShown;
 
 imgs[0].onclick = function(){
         imgs[0].style.display = 'none';
         imgsBtn.style.display = "inline";
+        
+        imgShown--;
+        imgCount.innerHTML = "Images Visible: " + imgShown;
 };
 
 imgs[1].onclick = function(){
         imgs[1].style.display = 'none';
         imgsBtn.style.display = "inline";
+        
+        imgShown--;
+        imgCount.innerHTML = "Images Visible: " + imgShown;
 };
 
 imgs[2].onclick = function(){
         imgs[2].style.display = 'none';
         imgsBtn.style.display = "inline";
+        
+        imgShown--;
+        imgCount.innerHTML = "Images Visible: " + imgShown;
 };
 
 imgs[3].onclick = function(){
         imgs[3].style.display = 'none';
         imgsBtn.style.display = "inline";
+        
+        imgShown--;
+        imgCount.innerHTML = "Images Visible: " + imgShown;
 };
 
 function show(){
@@ -29,4 +42,5 @@ function show(){
         imgs[i].style.display = "inline";
     }
     imgsBtn.style.display = "none";
+    imgShown = 4;
 }
