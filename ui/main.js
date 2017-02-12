@@ -16,3 +16,9 @@ imgs[2].onclick = function(){
 imgs[3].onclick = function(){
         imgs[3].style.display = 'none';
 };
+
+function show(){
+    for(var i = 0; i < imgs.length; i++){
+        imgs[i].style.display = "inline";
+    }
+}
