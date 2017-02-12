@@ -104,8 +104,9 @@ app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 
-app.get('/images/madi.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'images', 'madi.png'));
+app.get('/images/:blah', function (req, res) {
+    var blah = req.params.blah;
+    res.sendFile(path.join(__dirname, 'images', blah));
 });
 
 app.get('/images/chaplin.png', function (req, res) {
