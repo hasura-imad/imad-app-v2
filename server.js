@@ -6,7 +6,7 @@ var app = express();
 app.use(morgan('combined'));
 
 var articles = {
-    articleOne : {
+    'articleOne' : {
         title: 'Article One is here!',
         heading: 'Article One',
         date: '12 Feb, 2017',
@@ -16,7 +16,7 @@ var articles = {
                 <p>Lorem ipsum is sum of all ipsum lorems. Lorem ipsum is sum of all ipsum lorems. Lorem ipsum is sum of all ipsum lorems. Lorem ipsum is sum of all ipsum lorems. Lorem ipsum is sum of all ipsum lorems. Lorem ipsum is sum of all ipsum lorems. Lorem ipsum is sum of all ipsum lorems. Lorem ipsum is sum of all ipsum lorems. </p>
                 `
     },
-    articleTwo : {
+    'articleTwo' : {
         title: 'Article Two is here!',
         heading: 'Article Two',
         date: '12 Feb, 2017',
@@ -26,7 +26,7 @@ var articles = {
             <p>Lorem ipsum is sum of all ipsum lorems. Lorem ipsum is sum of all ipsum lorems. Lorem ipsum is sum of all ipsum lorems. Lorem ipsum is sum of all ipsum lorems. Lorem ipsum is sum of all ipsum lorems. Lorem ipsum is sum of all ipsum lorems. Lorem ipsum is sum of all ipsum lorems. Lorem ipsum is sum of all ipsum lorems. </p>
             `
     },
-    articleThree : {
+    'articleThree' : {
         title: 'Article Three is here!',
         heading: 'Article Three',
         date: '12 Feb, 2017',
