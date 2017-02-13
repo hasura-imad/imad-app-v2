@@ -4,7 +4,7 @@
         <title>The Profile Page</title>
         <link href="/styles/style.css" rel="stylesheet" />
     </head>
-    <body>
+    <body onload="initPage()">
         <div class="container">
             <a href="/">Home</a>
             <hr/>
@@ -23,6 +23,9 @@
                 This button <button id="counter">Click Me</button> has been clicked <span id="count">_</span> times 
                 since the server was recently started.
                 <hr/>
+				<input id="nameInput" type="text" placeholder="enter name">
+                <input id="nameBtn" type="submit" value="Submit">
+				<ul id="nameList" style="text-align:left"></ul>
             </div>
         </div>
         <script type="text/javascript" src="/scripts/profile.js"></script>

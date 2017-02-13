@@ -1,3 +1,42 @@
+//Name list input
+var nameInput = document.getElementById("nameInput");
+var nameBtn = document.getElementById("nameBtn");
+var nameList = document.getElementById("nameList");
+
+function initPage(){
+	nameInput.focus();
+};
+
+function indent() {document.execCommand("indent");}
+
+function outdent() {document.execCommand("outdent");}
+
+var addName = function(){
+	var name = nameInput.value;
+	nameList.innerHTML += '<li>' + name + '</li>';
+	nameInput.value = "";
+	nameList.scrollIntoView(true);
+};
+
+nameBtn.onclick = function(){
+	addName();
+};
+
+nameInput.addEventListener("keydown", function (e) {
+    if (e.keyCode === 13) {  //checks whether the pressed key is "Enter"
+        addName();
+	}
+	if(e.which==9){
+        e.preventDefault();
+        if(e.shiftKey==true){
+            outdent();
+        }
+        else{
+            indent();
+        }
+    }
+});
+
 //Counter endpoint code is connected to the button click event, using XMLHttpRequest
 var counterBtn = document.getElementById('counter');
 
