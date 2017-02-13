@@ -53,3 +53,11 @@ body {
     background: black;
     text-decoration: none;
 }
+
+#count{
+    padding-left:5px;
+    padding-right:5px;
+    background-color: black;
+    color: green;
+    font-family: "Courier New";
+}
