@@ -112,12 +112,28 @@ app.get('/article-three', function (req, res) {
 });
 */
 
-app.get('/ui/style.css', function (req, res) {
+/*app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
+});*/
+
+//generic code to fetch any style
+app.get('/styles/:blah', function (req, res) {
+    var blah = req.params.blah;
+    res.sendFile(path.join(__dirname, 'styles', blah));
 });
 
-app.get('/ui/main.js', function (req, res) {
+/*app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
+});
+
+app.get('/ui/profile.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'profile.js'));
+});*/
+
+//generic code to fetch any script
+app.get('/scripts/:blah', function (req, res) {
+    var blah = req.params.blah;
+    res.sendFile(path.join(__dirname, 'scripts', blah));
 });
 
 //generic code to fetch any image
