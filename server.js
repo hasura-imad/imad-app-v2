@@ -85,12 +85,14 @@ app.get('/profile', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'profile.html'));
 });
 
+//counter endpoint
 var counter = 0;
 app.get('/counter', function (req, res) {
     counter++;
     res.send(counter.toString());
 });
 
+//generic code to fetch any article
 app.get('/:blah', function (req, res) {
   var blah = req.params.blah;
   res.send(createTemplate(articles[blah]));
@@ -118,6 +120,7 @@ app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
 
+//generic code to fetch any image
 app.get('/images/:blah', function (req, res) {
     var blah = req.params.blah;
     res.sendFile(path.join(__dirname, 'images', blah));
