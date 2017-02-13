@@ -20,6 +20,6 @@ counterBtn.onclick = function(){
     
     
     //Make the request to /counter endpoint
-    request.open('GET', 'http://selfdirectedlearner.imad.hasura-app.io/counter', true);
+    request.open('GET', '/counter', true);
     request.send(null);
 };
