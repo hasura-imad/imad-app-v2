@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+    <head>
+        <title>The Profile Page</title>
+        <link href="/styles/style.css" rel="stylesheet" />
+    </head>
+    <body onload="initPage()">
+        <div class="container">
+            <a href="/">Home</a>
+            <hr/>
+        </div>
+	    <div class="center container">
+	        <h1 class="center text-big bold"> The Profile Page </h1>
+    	    <hr/>
+            <img class="img-medium" src="/images/chaplin.png">
+            <h3>Personal</h3>
+            <p>Learning something new everyday</p>
+            <hr/>
+            <h3>Professional</h3>
+            <p>Building something amazing bit by bit</p>
+            <hr/>
+            <div id="footer">
+                This button <button id="counter">Click Me</button> has been clicked <span id="count">_</span> times 
+                since the server was recently started.
+                <hr/>
+				<input id="nameInput" type="text" placeholder="enter name">
+                <input id="nameBtn" type="submit" value="Submit">
+				<button id="showNames">Show Names</button>
+				<ul id="nameList" style="text-align:left"></ul>
+				<ul id="namesShown" style="text-align:right;list-style:none;"></ul>
+				<p>Names entered so far:</p>
+				<div id="allTheNamesStore"></div>
+            </div>
+        </div>
+        <script type="text/javascript" src="/scripts/profile.js"></script>
+    </body>
+</html>
