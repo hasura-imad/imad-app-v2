@@ -12,10 +12,12 @@ function indent() {document.execCommand("indent");}
 function outdent() {document.execCommand("outdent");}
 
 var addName = function(){
-	var name = nameInput.value;
-	nameList.innerHTML += '<li>' + name + '</li>';
-	nameInput.value = "";
-	nameList.scrollIntoView(true);
+	if(nameInput.value != ""){
+		var name = nameInput.value;
+		nameList.innerHTML += '<li>' + name + '</li>';
+		nameInput.value = "";
+		nameList.scrollIntoView(true);
+	}
 };
 
 nameBtn.onclick = function(){
