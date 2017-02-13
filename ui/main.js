@@ -1,14 +1,31 @@
+//Counter endpoint code is connected to the button click event, using XMLHttpRequest
 var counterBtn = document.getElementById('counter');
-var counter = 0;
+
 counterBtn.onclick = function(){
-    //Make a request to the counter endpoint
+    //Create a request object
+    var request = new XMLHttpRequest();
+    
     //Capture the response and store it in a variable
-    //Render the variable in the correct span
-    counter = counter + 1;
-    var countSpan = document.getElementById('count');
-    countSpan.innerHTML = counter.toString();
+    request.onreadystatechange = function(){
+        if(request.readyState === XMLHttpRequest.DONE){
+            if(request.status === 200){
+                var counter = request.responseText;
+                
+                //Render the variable in the correct span
+                var countSpan = document.getElementById('count');
+                countSpan.innerHTML = counter.toString();
+            }
+        }
+    };
+    
+    
+    //Make the request to /counter endpoint
+    request.open('GET', 'http://selfdirectedlearner.imad.hasura-app.io/counter', true);
+    request.send(null);
 };
 
+
+//client side javascript code for index.html
 console.log('Loaded!');
 var imgs = document.getElementsByClassName('img-medium');
 var imgsBtn = document.getElementById('imgsBtn');
