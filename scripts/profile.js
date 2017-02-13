@@ -2,6 +2,9 @@
 var nameInput = document.getElementById("nameInput");
 var nameBtn = document.getElementById("nameBtn");
 var nameList = document.getElementById("nameList");
+var showNames = document.getElementById("showNames");
+var namesShown = document.getElementById("namesShown");
+var allTheNamesStore = document.getElementById("allTheNamesStore");
 
 function initPage(){
 	nameInput.focus();
@@ -11,10 +14,20 @@ function indent() {document.execCommand("indent");}
 
 function outdent() {document.execCommand("outdent");}
 
+function manageNamesArray(){
+	var allTheNames = [];
+	allTheNames = allTheNamesStore.innerHTML.split(',');
+	return allTheNames;
+};
+
+var namesArray = [];
+
 var addName = function(){
 	if(nameInput.value != ""){
 		var name = nameInput.value;
+		namesArray.push(name);
 		nameList.innerHTML += '<li>' + name + '</li>';
+		allTheNamesStore.innerHTML += name + ",";
 		nameInput.value = "";
 		nameList.scrollIntoView(true);
 	}
@@ -22,6 +35,14 @@ var addName = function(){
 
 nameBtn.onclick = function(){
 	addName();
+};
+
+showNames.onclick = function(){
+	var namesArrayPre = manageNamesArray();
+	namesShown.innerHTML = '';
+	for(var i = 0; i < namesArrayPre.length; i++){
+		namesShown.innerHTML += '<li>' + namesArrayPre[i] + '</li>';
+	}
 };
 
 nameInput.addEventListener("keydown", function (e) {
