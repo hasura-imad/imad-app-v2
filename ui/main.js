@@ -1,6 +1,8 @@
 console.log('Loaded!');
-var skeet= document.getElementById('butt');
-skeet.onClick= function() {
-    alert("MMORPG stands for Massively Multiplayer Online Role Playing Game(ya dummy)");
-    skeet.style.marginTop = '80px';
+
+
+var img = document.getElementById('butt');
+img.onClick= function() { 
+    img.style.marginLeft = '100px';
+    
 };
