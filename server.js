@@ -20,9 +20,9 @@ var content = {
                         		
                      </p>		
                      <p>		
-                         This is article three .`.`.``````````````````````````````````````````````````````````````````````````is is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..
+                         This is article three .``````````````````````````````````````````````````````````````````````````is is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..
                          </p>`
-                         
+                    
     };
     
     function CreateTemplate (data) { 
