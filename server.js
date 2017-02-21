@@ -6,13 +6,11 @@ app.use(morgan('combined'));
 
 
 var articles = {
-    articleOne = {}
-     
-};
-        
+    articleOne : {
+           
         title : 'Article one !Anu Tony',
         heading : 'Article one',
-        date : 'Sep 5,2016',
+        date : 'Sep 10,2016',
         content : 
                     `<p> This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..		
                          		
@@ -26,10 +24,29 @@ var articles = {
                          </p>`
                     
     };
-    articleTwo = {
+    
+     
+    articleTwo :  {   
+        title : 'Article two  !Anu Tony',
+        heading : 'Article two ',
+        date : 'sep16,2016',
+        content : 
+                    `<p> This is article three.This is article threeThis is article threeThis is article threeThis is article threeThis is article three
+                         </p>`
         
-    }
-      articleThree = {}
+        };
+        
+      articleThree = {
+             
+        title : 'Article three  !Anu Tony',
+        heading : 'Article three ',
+        date : 'oct12,2016',
+        content : 
+                    `<p> This is article three.This is article threeThis is article threeThis is article threeThis is article threeThis is article three
+                         </p>`
+                    
+    };
+      }
     
     function CreateTemplate (data) { 
     var title = data.title;
