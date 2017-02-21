@@ -84,7 +84,7 @@ function CreateTemplate (data) {
              </body>     		
      </html>`;
      
-    return htmltemplate
+    return htmltemplate;
     
     }
     
