@@ -23,7 +23,7 @@ var articles = {
                          This is article 1 is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..
                          </p>`
                     
-    };
+                 };
     
      
     articleTwo :  {   
@@ -36,7 +36,7 @@ var articles = {
         
         };
         
-    articleThree = {
+    articleThree : {
              
         title : 'Article three  !Anu Tony',
         heading : 'Article three ',
@@ -46,7 +46,7 @@ var articles = {
                          </p>`
                     
     };
-      };
+                };
     
 function CreateTemplate (data) { 
     var title = data.title;
