@@ -6,7 +6,7 @@ app.use(morgan('combined'));
 
 var articles = 
 {
-articleOne : {
+`article-one`     : {
         title   : 'Article one !Anu Tony',
         heading : 'Article one',
         date    : 'Sep 10,2016',
@@ -22,7 +22,7 @@ articleOne : {
                          This is article 1 is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..
                          </p>`
 },
-articleTwo : {
+`article-two`    : {
         title   : 'Article two !Anu Tony',
         heading : 'Article two',
         date    : 'Sep 22,2016',
@@ -38,8 +38,8 @@ articleTwo : {
                          This is article 1 is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..
                          </p>`
 },
-articleThree : {
-    title   : 'Article three  !Anu Tony',
+`article-three`   : {
+        title   : 'Article three  !Anu Tony',
         heading : 'Article three',
         date    : 'oct 10,2016',
         content : 
