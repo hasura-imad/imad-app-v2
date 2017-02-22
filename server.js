@@ -4,12 +4,10 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-
-var articles = {
-   
-    `articleOne` : {
-           
-        title   : 'Article one !Anu Tony',
+var articles = 
+{
+articleOne : {
+    title   : 'Article one !Anu Tony',
         heading : 'Article one',
         date    : 'Sep 10,2016',
         content : 
@@ -23,31 +21,41 @@ var articles = {
                      <p>		
                          This is article 1 is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..
                          </p>`
-                    
-                 },
-   `articleTwo`     : {
-             
-        title : 'Article three  !Anu Tony',
-        heading : 'Article three ',
-        date : 'oct12,2016',
+},
+articleTwo : {
+    title   : 'Article two !Anu Tony',
+        heading : 'Article two',
+        date    : 'Sep 22,2016',
         content : 
-                   ` <p> This is article three.This is article threeThis is article threeThis is article threeThis is article threeThis is article three
-                        </p>`
-                    
-    },
-        
-        
-    `articleThree`     : {
-             
-        title : 'Article three  !Anu Tony',
-        heading : 'Article three ',
-        date : 'oct12,2016',
+                   ` <p> This is article two.This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..		
+                         		
+                     </p>		
+                     <p>		
+                         This is article1..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..		
+                        		
+                     </p>		
+                     <p>		
+                         This is article 1 is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..
+                         </p>`
+},
+articleThree : {
+    title   : 'Article three  !Anu Tony',
+        heading : 'Article three',
+        date    : 'oct 10,2016',
         content : 
-                   ` <p> This is article three.This is article threeThis is article threeThis is article threeThis is article threeThis is article three
-                        </p>`
-                    
-    }
-                };
+                   ` <p> This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..		
+                         		
+                     </p>		
+                     <p>		
+                         This is article1..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..		
+                        		
+                     </p>		
+                     <p>		
+                         This is article 1 is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..
+                         </p>`
+}
+};
+
     
 function createTemplate (data) { 
     var title = data.title;
