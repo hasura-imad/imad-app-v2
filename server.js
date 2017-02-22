@@ -7,13 +7,13 @@ app.use(morgan('combined'));
 
 var articles = {
    
-    `article-one`      : {
+    `article-one  : {
            
         title : 'Article one !Anu Tony',
         heading : 'Article one',
         date : 'Sep 10,2016',
         content : 
-                    `<p> This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..		
+                    <p> This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..		
                          		
                      </p>		
                      <p>		
@@ -22,7 +22,7 @@ var articles = {
                      </p>		
                      <p>		
                          This is article 1 is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..
-                         </p>`
+                         </p>
                     
                  },
     
@@ -32,8 +32,8 @@ var articles = {
         heading : 'Article three ',
         date : 'sep 11,2016',
         content : 
-                    `<p> This is article three.This is article threeThis is article threeThis is article threeThis is article threeThis is article three
-                         </p>`
+                    <p> This is article three.This is article threeThis is article threeThis is article threeThis is article threeThis is article three
+                         </p>
                     
     },
         
@@ -44,8 +44,8 @@ var articles = {
         heading : 'Article three ',
         date : 'oct12,2016',
         content : 
-                    `<p> This is article three.This is article threeThis is article threeThis is article threeThis is article threeThis is article three
-                         </p>`
+                    <p> This is article three.This is article threeThis is article threeThis is article threeThis is article threeThis is article three
+                         </p>
                     
     }
                 };
@@ -57,7 +57,7 @@ function createTemplate (data) {
     var content = data.content;
     
     var htmltemplate = 
-        `<html>		
+        <html>		
          <head>		
             <title>		
                 ${title}		
@@ -84,7 +84,7 @@ function createTemplate (data) {
              </body>     		
      </html>
      `;
-     
+    
     return htmltemplate;
     
     }
