@@ -7,7 +7,7 @@ app.use(morgan('combined'));
 
 var articles = {
    
-    One      : {
+    artOne      : {
            
         title : 'Article one !Anu Tony',
         heading : 'Article one',
@@ -26,7 +26,7 @@ var articles = {
                     
                  },
     
-    Two    : {
+    artTwo    : {
              
         title : 'Article two  !Anu Tony',
         heading : 'Article three ',
@@ -38,7 +38,7 @@ var articles = {
     },
         
         
-    Three    : {
+    artThree    : {
              
         title : 'Article three  !Anu Tony',
         heading : 'Article three ',
@@ -47,7 +47,7 @@ var articles = {
                     `<p> This is article three.This is article threeThis is article threeThis is article threeThis is article threeThis is article three
                          </p>`
                     
-    },
+    }
                 };
     
 function createTemplate (data) { 
@@ -82,7 +82,8 @@ function createTemplate (data) {
                  </div>		
               	</div>	
              </body>     		
-     </html>`;
+     </html>
+     `;
      
     return htmltemplate;
     
@@ -93,9 +94,9 @@ app.get('/', function (req, res) {
  res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/articles', function (req, res){
+app.get('/:articles', function (req, res){
     
-res.send(createTemplate(articles[articleName]));
+res.send(createTemplate(articles[articles]));
 
 });
 
