@@ -53,7 +53,7 @@ var articles = {
                          This is article 1 is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..
                          </p>`
 }
-} ;
+                };
 
     
 function createTemplate (data) { 
