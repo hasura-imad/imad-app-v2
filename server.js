@@ -4,11 +4,10 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var articles = 
-{
+var articles = {
 `article-one`     : {
-        title   : 'Article one !Anu Tony',
-        heading : 'Article one',
+        title   : `Article one !Anu Tony`,
+        heading : `Article one`,
         date    : 'Sep 10,2016',
         content : 
                    ` <p> This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..		
@@ -54,7 +53,7 @@ var articles =
                          This is article 1 is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..This is article one..
                          </p>`
 }
-};
+} ;
 
     
 function createTemplate (data) { 
