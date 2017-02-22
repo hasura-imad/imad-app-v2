@@ -20,9 +20,9 @@ var articles= {
                     </p>`
     },
     'article-two': {
-        title: 'Article Three | Shristy',
+        title: 'Article Two | Shristy',
         date: 'Feb 24 2017',
-        heading: 'Article Three',
+        heading: 'Article Two',
         content: `<p>
                     This is the content for my second article.
                   </p>`},
@@ -68,8 +68,8 @@ function createTemplate (data){
                     </div>
                 </div>
             </body>
-        </html>`
-    ;
+        </html>
+    `;
     return htmlTemplate;
 }
 
@@ -79,7 +79,7 @@ app.get('/', function (req, res) {
 
 app.get('/:articleName',function (req, res) {
     //articleName = article-one
-    var articleName = req.param.articleName;
+    var articleName = req.params.articleName;
     res.send(createTemplate(articles[articleName]));
 });
 
