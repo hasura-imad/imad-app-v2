@@ -1,9 +1,11 @@
-console.log('Loaded!');
+var counter=0;
+var butt = document.getElementById('counter');
 
-
-var img = document.getElementById('butt');
-img.onClick= function() {
+butt.onclick = function () {
     
-img.style.marginLeft = '100px';
     
+    
+    counter=counter+1;
+    var span = document.getElementById('count');
+    span.innerHTML = counter.toString();
 };
