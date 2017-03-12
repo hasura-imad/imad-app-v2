@@ -24,6 +24,7 @@ body {
     background-color:blue;
     width:200px;
     height:52px;
+    font-size: 300%;
     font-family:calibri;
     
 }
@@ -32,5 +33,6 @@ body {
     background-color:green;
     width:205px;
     height:54px;
+    font-size: 300%;
     font-family:calibri;
 }
