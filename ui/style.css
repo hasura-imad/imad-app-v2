@@ -24,7 +24,7 @@ body {
     background-color:blue;
     width:200px;
     height:52px;
-    font-family:Times New Roman;
+    font-family:calibri;
     
 }
 #fv:hover
@@ -32,5 +32,5 @@ body {
     background-color:green;
     width:205px;
     height:54px;
-    font-family:Times New Roman;
+    font-family:calibri;
 }
