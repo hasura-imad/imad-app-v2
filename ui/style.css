@@ -24,10 +24,13 @@ body {
     background-color:blue;
     width:200px;
     height:52px;
+    font-family:Arial;
+    
 }
 #fv:hover
 {
     background-color:green;
     width:205px;
     height:54px;
+    font-family:Arial;
 }
