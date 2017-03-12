@@ -19,4 +19,9 @@ body {
 .img-medium {
     height: 200px;
 }
-
+#fv
+{
+    background-color:blue;
+    width:400px;
+    height:205px;
+}
