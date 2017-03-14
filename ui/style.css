@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color: lightgrey;
+    background-image:url("/ui/spmUM.gif"); 
     margin-top: 75px;
 }
 
@@ -19,4 +19,20 @@ body {
 .img-medium {
     height: 200px;
 }
-
+#fv
+{
+    background-color:blue;
+    width:200px;
+    height:52px;
+    font-size: 20%;
+    font-family:calibri;
+    
+}
+#fv:hover
+{
+    background-color:green;
+    width:205px;
+    height:54px;
+    font-size: 25%;
+    font-family:calibri;
+}
