@@ -4,7 +4,7 @@ body {   font-family: sans-serif;    background-color: lightgrey;    margin-top:
 .bold {    font-weight: bold;}
 .img-medium {    height: 200px;}
 
-container{
+.container{
     background-color : powderblue;
     height:200px;
     width:50%;
