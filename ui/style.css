@@ -7,7 +7,7 @@ body {   font-family: sans-serif;    background-color: lightgrey;    margin-top:
 .container{
     background-color : powderblue;
     height:200px;
-    width:50%;
+    width:800px;
     border-style :dotted;
     margin-left : 120px;
 }
