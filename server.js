@@ -14,6 +14,16 @@ app.get('/counter', function (req, res) {
     
   res.send(counter.toString());
 });
+app.get('/test-db',function(req,res)
+{
+   // make a  request 
+    
+});
+
+
+
+
+
 app.get('/article-one',function(req,res) {
   res.sendFile(path.join(__dirname, 'ui', 'article-one.html'));
 });
