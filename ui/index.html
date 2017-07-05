@@ -1,17 +1,640 @@
-<!doctype html>
-<html>
-    <head>
-        <link href="/ui/style.css" rel="stylesheet" />
-    </head>
-    <body>
-        <div class="center">
-            <img src="/ui/madi.png" class="img-medium"/>
+<html lang="en" class=" js no-touch csstransitions"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <title>KMUN 2017</title>
+    <!-- Slider CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slider_style.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis:200,400,700" rel="stylesheet" type="text/css">
+    <script src="https://connect.facebook.net/signals/config/169621843575797?v=2.7.17" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script type="text/javascript" src="assets/js/modernizr.custom.79639.js"></script>
+    <noscript>
+        &lt;link rel="stylesheet" type="text/css" href="assets/css/noscript.css" /&gt; </noscript>
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="vendor/materialize/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="assets/css/style-team.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet" type="text/css">
+    <!--Favicons-->
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/img/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#3F51B5">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#3F51B5"> <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window,document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+     fbq('init', '169621843575797'); 
+    fbq('track', 'PageView');
+    </script></head>
+    <!-- Facebook Pixel Code -->
+    
+    <body><noscript>
+     &lt;img height="1" width="1" 
+    src="https://www.facebook.com/tr?id=169621843575797&amp;ev=PageView
+    &amp;noscript=1"/&gt;
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+
+    <nav class="nav-extended z-depth-0 blue-grey darken-2" role="navigation">
+        <div class="nav-wrapper container">
+            <a id="logo-container" href="#" class="brand-logo white-text"> <img class="logo left" src="assets/img/logoWhite.png"><span>KMUN 2017</span></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a class="white-text" href="//kmun.in/team.html">TEAM</a></li>
+                <li><a class="white-text" href="//press.kmun.in">PRESS</a></li>
+                <li><a class="white-text" href="#contact">CONTACT</a></li>
+                <li><a class="white-text" href="//web.kmun.in">LOGIN</a></li>
+            </ul> <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons white-text">menu</i></a> </div>
+        <div class="nav-background">
+            <div class="ea k" style="background-image:url('assets/img/lander.jpg')"></div>
         </div>
-        <br>
-        <div class="center text-big bold">
-            Hi! I am your webapp.
+        <div class="nav-header">
+            <div class="section no-pad-bot">
+                <div class="container">
+                    <br>
+                    <br>
+                    <h3 class="header center yellow-text text-lighten-2">KUMARANS MODEL UNITED NATIONS | 2017</h3>
+                    <div class="row center">
+                        <h5 class="header col s12 light" id="timer">0 Days 9 Hours 54 Minutes 50 Seconds </h5> </div>
+                    <div class="row center"> <a type="button" onclick="Materialize.toast('Registrations are closed. Please click Login to see your registration status', 4000)" id="download-button" class="btn-large waves-effect waves-dark yellow lighten black-text">Registrations are Closed</a> </div>
+                    <h6></h6>
+                    <br>
+                    <br> </div>
+            </div>
         </div>
-        <script type="text/javascript" src="/ui/main.js">
-        </script>
-    </body>
-</html>
+        <!-- FIXME: Make Tabs stick and change color -->
+        <div id="wrap">
+            <div data-target="wrap" class=" pushpin-tabs">
+                <div class="nav-content container">
+                    <ul class="tabs tabs-transparent">
+                        <li class="tab"><a href="#about" class="active">ABOUT</a></li>
+                        <li class="tab"><a href="#committees">COMMITTEES</a></li>
+                        <li class="tab"><a href="#cal">PREP</a></li>
+                        <!--<li class="tab"><a href="#team">TEAM</a></li>-->
+                    <div class="indicator" style="right: 412px; left: 0px;"></div></ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <ul id="nav-mobile" class="side-nav blue-grey lighten-5" style="transform: translateX(-100%);">
+        <li>
+            <div class="userView">
+                <div class="background blue-grey lighten-5"> <img class="side-logo center" src="assets/img/logo1.png"> </div>
+            </div>
+        </li>
+        <li><a class="waves-effect" href="#contact">Contact</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a class="waves-effect" href="//kmun.in/team.html">Team</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a class="waves-effect" href="//press.kmun.in">Press</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a class="waves-effect" href="//web.kmun.in">Login</a></li>
+    </ul>
+    <div id="about" class="col s12 active">
+        <div class="container">
+            <div class="section">
+                <div class="row">
+                    <div class="col s12 m12">
+                        <header class="container center-align about-header"> <img src="assets/img/logo1.png">
+                            <h2>WHAT IS KMUN ?</h2> </header>
+                        <br>
+                        <p class="light"> Kumarans Model United Nations is a three-day international relations simulation for high school students aimed at educating participants about current events, international relations, diplomacy and the United Nations agendas. At KMUN, delegates gain insight into the workings of the United Nations and the dynamics of international relations by assuming the roles of members of international bodies and national cabinets. During the Summit, delegates will be able to appreciate the importance of balancing national interests with the needs of the international community, while also gaining an insight into the powers and limitations of international negotiations.
+                            <br> In addition to traditional committees, delegates also have the option to participate in specialised crisis committees, where they must respond reflexively and creatively to international crises in real-time. KMUN strives to foster a constructive forum for open dialogue on complex global issues through in-depth examination and resolution of pressing issues. Delegates also learn to preserve their countries’ national policy while negotiating in the face of other, sometimes conflicting, international policies. </p>
+                        <div class="center" style="margin-top:30px">
+                            <h5> Sponsors </h5>
+                            <img src="assets/img/sponsor.png" alt="Sponsor : TVS">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="parallax-container valign-wrapper">
+            <div class="section no-pad-bot">
+                <div class="container">
+                    <div class="row center">
+                        <div class="col s12">
+                            <!--   Icon Section   -->
+                            <div class="row">
+                                <div class="col s12 m12">
+                                    <div class="icon-block">
+                                        <h3 class="center">Secretary General's Message</h3> </div>
+                                    <div class="row center"><a href="#modal1" class="btn waves-effect waves-dark yellow lighten black-text">Read</a></div>
+                                    <div id="modal1" class="modal">
+                                        <div class="modal-content black-text">
+                                            <h4>Message From Smaran Rao, Secretary General</h4>
+                                            <p class="light left-align">On behalf of our dedicated Organising Committee and Executive Board, it is my honour to invite you to the seventh edition of KMUN. It is my great pleasure to serve as your Secretary General for this year’s Model United Nations.</p>
+                                            <p class="light left-align"> KMUN started in 2008 and we will be celebrating its seventh edition this year. KMUN has become somewhat of a Kumarans tradition, with Bangalore’s best and brightest converging at one place every July to discuss international politics, engage in diplomacy and make new friends along the way. We are heartened by the fact that KMUN is now one of Bangalore’s largest and most prominent school MUNs. </p>
+                                            <p class="light left-align">As I have been a delegate myself, I understand the thrill that comes from a good debate and all that a MUN needs to make a delegate want to come back, year after year. Rest assured, one will find all that at KMUN and more. Delegates will be met by an Executive Board of the highest quality and utmost professionalism, who are there to ensure that debate and discussion take prominence. </p>
+                                            <p class="light left-align"> The new Organising Committee has laid the groundwork for a riveting conference this year. We will be simulating ten committees which range from a UN Security Council to a fictional crisis committee, each of them carefully selected and their agendas and topics meticulously curated, to guarantee that debate will be at its highest level. </p>
+                                            <p class="light left-align"> For all of us, KMUN is more than just another competition. It is a symbol. A symbol that we are moving towards a more tolerant world, a world that rewards ingenuity, hard work and diplomacy, rather than violence and corruption. A world which will have all the characteristics of KMUN - stimulating debate, great people and a picturesque setting. I look forward to witnessing every delegate comprehend the complex ways of the world and skillfully form policies to move closer to a brighter future. </p>
+                                            <p class="light left-align"> It is indeed my privilege to welcome you all to the 7th edition of Kumarans Model United Nations, and I look forward to seeing you in July. </p>
+                                        </div>
+                                        <div class="modal-footer"> <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a> </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="parallax blue-grey darken-2"><img src="assets/img/lander.jpg" style="opacity: 0.2; display: block;"></div>
+        </div>
+        <div class="container">
+            <div class="section">
+                <div class="row">
+                    <div class="col s12 center">
+                        <h3>Schedule</h3>
+                        <ul class="collapsible popout" data-collapsible="accordion">
+                            <li>
+                                <div class="collapsible-header blue-grey lighten-5"><span class="blue-grey-text">6th July '17 - </span>Conference Day 1 </div>
+                                <div class="collapsible-body">
+                                    <p class="center"> <span class="blue-grey-text">9 AM :</span> Reporting Time</p>
+                                    <p class="center"> <span class="blue-grey-text">9:30 AM to 11:00 AM :</span> Opening Ceremony</p>
+                                    <p class="center"> <span class="blue-grey-text">11:15 AM to 12:45 PM :</span> Session 1</p>
+                                    <p class="center"> <span class="blue-grey-text">12:45 PM to 1:30 PM :</span> Lunch</p>
+                                    <p class="center"> <span class="blue-grey-text">1:30 PM to 2:45 PM :</span> Session 2</p>
+                                    <p class="center"> <span class="blue-grey-text">2:45 PM to 3:00 PM :</span> Feedback Session</p>
+                                    <p class="center"> <span class="blue-grey-text">3:00 PM to 4:00 PM :</span> Session 3</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header blue-grey lighten-5"><span class="blue-grey-text">7th July '17 - </span>Conference Day 2 </div>
+                                <div class="collapsible-body">
+                                    <p class="center"> <span class="blue-grey-text">8.30 AM :</span> Reporting Time</p>
+                                    <p class="center"> <span class="blue-grey-text">9:00 AM to 10:15 AM :</span> Session 4</p>
+                                    <p class="center"> <span class="blue-grey-text">10:15 AM to 10:30 AM :</span> Break</p>
+                                    <p class="center"> <span class="blue-grey-text">10:30 AM to 12:45 PM :</span> Session 5</p>
+                                    <p class="center"> <span class="blue-grey-text">12:45 PM to 1 PM :</span> Feedback Session</p>
+                                    <p class="center"> <span class="blue-grey-text">1:00 PM to 1:30 PM :</span> Lunch</p>
+                                    <p class="center"> <span class="blue-grey-text">1:30 PM to 2:30 PM :</span> Session 6</p>
+                                    <p class="center"> <span class="blue-grey-text">2:30 PM to 4:00 PM :</span> Social Event</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header blue-grey lighten-5"><span class="blue-grey-text">8th July '17 - </span>Conference Day 3 </div>
+                                <div class="collapsible-body">
+                                    <p class="center"> <span class="blue-grey-text">8.30 AM :</span> Reporting Time</p>
+                                    <p class="center"> <span class="blue-grey-text">9:00 AM to 10:15 AM :</span> Session 7</p>
+                                    <p class="center"> <span class="blue-grey-text">10:15 AM to 10:30 AM :</span> Break</p>
+                                    <p class="center"> <span class="blue-grey-text">10:30 AM to 11:45 AM :</span> Session 8</p>
+                                    <p class="center"> <span class="blue-grey-text">11:45 AM to 12 PM :</span> Feedback Session</p>
+                                    <p class="center"> <span class="blue-grey-text">12:00 PM to 12:30 PM :</span> Lunch</p>
+                                    <p class="center"> <span class="blue-grey-text">12:30 PM to 1:45 PM :</span> Session 9</p>
+                                    <p class="center"> <span class="blue-grey-text">2:00 PM to 4:00 PM :</span> Closing Ceremony</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contact" class="parallax-container valign-wrapper">
+            <div class="section no-pad-bot">
+                <div class="container">
+                    <div class="row center">
+                        <div class="header col s12 m6 light">
+                            <h2> Contact Us</h2>
+                            <h5><a href="mailt:support@kmun.in" class="white-text"><span class="yellow-text text-lighten-3">support</span>@<span class="yellow-text text-lighten-3">kmun</span>.<span class="yellow-text text-lighten-3">in</span></a></h5> </div>
+                        <div class="header col s12 m6 light"> <a class="center waves-effect waves-dark btn waves yellow black-text" href="#modal2">Open Map</a> <a class="center waves-effect waves-light btn blue darken-3 white-text" href="https://www.facebook.com/KumaransMUN/" target="_blank">Facebook<i class="material-icons right">call_made</i></a> </div>
+                        <div id="modal2" class="modal modal-fixed-footer">
+                            <div class="modal-content black-text">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d124457.28882210613!2d77.45023470936277!3d12.889047032590748!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x97a2e19a500899da!2sSri+Kumaran+Children's+Home+CBSE+Mallasandra!5e0!3m2!1sen!2sin!4v1496596331912" frameborder="0" style="border:0;width:100%;height:100%" allowfullscreen=""></iframe>
+                            </div>
+                            <div class="modal-footer"> <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="parallax blue-grey darken-2"><img src="assets/img/lander.jpg" style="opacity: 0.2; display: block;"></div>
+        </div>
+        <footer class="page-footer blue-grey darken-2">
+            <div class="container"> </div>
+            <div class="footer-copyright">
+                <div class="container"> © <a class="yellow-text text-lighten-1" href="https://github.com/AniMysore74">AniMysore</a> and <a class="yellow-text text-lighten-1" href="https://github.com/Kolhar730">SamKolhar</a> for Kumarans Model United Nations 2017</div>
+            </div>
+        </footer>
+    </div>
+    <!-- TODO: New page for Committee -->
+    <div id="committees" class="col s12" style="display: none;">
+        <section id="ps-container" class="ps-container">
+            <div class="ps-contentwrapper">
+                <div class="ps-content" style="top: 0px; z-index: 999;">
+                    <h2 style="font-weight: 400; letter-spacing: 3px">Cuban Missile Crisis</h2>
+                    <p>The Cuban Missile Crisis of October 1962 was a direct and dangerous confrontation between the United States and the Soviet Union during the Cold War. After the failed U.S. attempt to overthrow the Castro regime ...</p> <a class="btn blue-grey darken-2 white-text waves-effect waves-light" href="#cmc">Read More</a> </div>
+                <div class="ps-content">
+                    <h2>Joint Crisis Committee</h2>
+                    <p>Revolving around a futuristic out-of-control timeline in the year 2023, where things are not as well as they seem, where peace may not be the best option, where dilemmas persist ...</p> <a class="btn blue-grey darken-2 white-text waves-effect waves-light" href="#jcc">Read More</a> </div>
+                <div class="ps-content">
+                    <h2>Adhoc Crisis Committee</h2>
+                    <p>The year is 2025. The world you remember from 2017 is not the one you live in today ... </p> <a class="btn blue-grey darken-2 white-text waves-effect waves-light" href="#adhoc">Read More</a></div>
+                <div class="ps-content">
+                    <h2>Lord of the Rings Committee</h2>
+                    <p>Nearly a decade has passed since Sauron's armies were vanquished by the men and the elves. Aragorn sits as High King of Gondor and the elves have left Middle Earth with young Baggins in tow ...</p> <a class="btn blue-grey darken-2 white-text waves-effect waves-light" href="#lotr">Read More</a></div>
+                <div class="ps-content">
+                    <h2>GA1 : DISEC</h2>
+                    <p>As the second world war drew to a close, DISEC was created as the first major committee of the six committees under the UN General Assembly in 1945 ...</p> <a class="btn blue-grey darken-2 white-text waves-effect waves-light" href="#disec">Read More</a> </div>
+                <div class="ps-content">
+                    <h2>GA2 : ECOFIN</h2>
+                    <p>The United Nations General Assembly Second Committee or the Economic and Financial Committee or ECOFIN is one of the six main standing committees of the United Nations General Assembly ...</p> <a class="btn blue-grey darken-2 white-text waves-effect waves-light" href="#ecofin">Read More</a> </div>
+                <div class="ps-content">
+                    <h2>INTERPOL</h2>
+                    <p>The International Criminal Police Organization or INTERPOL is an international organization facilitating international police cooperation among private and public sectors ...</p> <a class="btn blue-grey darken-2 white-text waves-effect waves-light" href="#interpol">Read More</a> </div>
+                <div class="ps-content">
+                    <h2>United Nations Security Council</h2>
+                    <p>The Security Council held its first session on 17 January 1946 after World War II at Church House, Westminster, London. Since then, the UNSC has been headquartered in New York City ...</p> <a class="btn blue-grey darken-2 white-text waves-effect waves-light" href="#unsc">Read More</a> </div>
+                <div class="ps-content">
+                    <h2>United Nations High Commissioner for Refugees</h2>
+                    <p>The office of the United Nations High Commissioner for Refugees (UNHCR), also known as the UN Refugee Agency, is a United Nations programme mandated to protect and support refugees ...</p> <a class="btn blue-grey darken-2 white-text waves-effect waves-light" href="#unhcr">Read More</a> </div>
+                <div class="ps-content">
+                    <h2>United Nations Environment Program</h2>
+                    <p>Every year we dump a massive 2.12 billion tons of waste. If all this waste was put on trucks they would go around the world 24 times ...</p> <a class="btn blue-grey darken-2 white-text waves-effect waves-light" href="#unep">Read More</a> </div>
+            </div>
+            <!-- /ps-contentwrapper -->
+            <div class="ps-slidewrapper">
+                <div class="ps-slides">
+                    <div style="background-image: url(&quot;assets/img/committees/cmc.jpg&quot;); top: 0px; z-index: 999;"></div>
+                    <div style="background-image:url(assets/img/committees/jcc.jpg);"></div>
+                    <div style="background-image:url(assets/img/committees/adhoc.jpg);"></div>
+                    <div style="background-image:url(assets/img/committees/lotr.jpg);"></div>
+                    <div style="background-image:url(assets/img/committees/disec.jpg);"></div>
+                    <div style="background-image:url(assets/img/committees/ecofin.jpg);"></div>
+                    <div style="background-image:url(assets/img/committees/interpol.jpg);"></div>
+                    <div style="background-image:url(assets/img/committees/unsc.jpg);"></div>
+                    <div style="background-image:url(assets/img/committees/unhcr.jpg);"></div>
+                    <div style="background-image:url(assets/img/committees/unep.jpg);"></div>
+                </div>
+                <div class="nav">
+                    <a href="#" class="ps-prev" style="background-image: url(&quot;https://www.kmun.in/assets/img/committees/unep.jpg&quot;);"></a>
+                    <a href="#" class="ps-next" style="background-image: url(&quot;https://www.kmun.in/assets/img/committees/jcc.jpg&quot;);"></a>
+                </div>
+            </div>
+            <!-- /ps-slidewrapper -->
+        </section>
+        <!-- MODALS -->
+        
+        
+        <div id="adhoc" class="modal">
+            <div class="modal-content">
+                <div class="row">
+                    <div class="col s12 m4 offset-m4"> <img class="com-logo" src="assets/img/committees/adhoc.jpg"> </div>
+                    <div class="col s12 m12"> <p>The year is 2025. The world you remember from 2017 is not the one you live in today. Political leaders have changed. The Republican party no longer holds a majority support in the USA, where Elizabeth Warren has already been re-elected for a second term. Her progressive and astute decision making has been a catalyst to push America into the future by undoing all of Trump’s policies.</p>
+
+<p>In Europe, after an uneventful and dull term for Macron, far right conservative candidate Le Pen surprises the world by announcing a referendum for France to exit the NATO as well as the EU and takes the brunt of large-scale outrage by banning the entry of immigrants and asylum seekers.</p>
+
+<p>Down South-East, after an exceptional run of ten years, ex-PM Narendra Modi handpicks successor Manohar Parrikar, who proves his mettle by securing India a permanent seat in the UNSC. India is one step closer to being a superpower.</p>
+
+<p>The ideologies of the world have changed, UK is drug ridden, and cyber security is as unsure as ever. Journalists take to social media as a platform to express and report the news. The economies of nations in every corner of the globe are fragile and oil resources are running out. Terror has seized the hearts of citizens. The world needs your help.</p>
+
+<p>Experience power as you step into the shoes of the biggest and most influential names on the planet. It’s time to make crucial decisions that will have everlasting effects on the future of this world. Will you be selfish or selfless? Will you give humanity or your interests precedence?  This committee will test your research, your awareness and your presence of mind. The world we know, the world we have lived in for decades, the world we love is hanging by a thread and it is entirely in your hands to push it over the edge or hang on for dear life.</p>
+
+<p>Welcome to the Ad-Hoc Crisis Committee 2025.</p>
+ </div>
+                </div>
+            </div>
+            <div class="modal-footer"> <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a> </div>
+        </div>
+        
+        
+        
+        <div id="cmc" class="modal">
+            <div class="modal-content">
+                <div class="row">
+                    <div class="col s12 m4 offset-m4"> <img class="com-logo" src="assets/img/committees/cmc.jpg"> </div>
+                    <div class="col s12 m12"> <p>The Cuban Missile Crisis of October 1962 was a direct and dangerous confrontation between the United States and the Soviet Union during the Cold War.  After the failed U.S. attempt to overthrow the Castro regime in Cuba with the Bay of Pigs invasion, the Soviets reached a secret agreement with Cuba to place Soviet nuclear missiles in Cuba so as to deter any future invasion attempt. The stationing of Soviet missiles in Cuba posed a threat to the United States and Canada and brought the world to the edge of nuclear war. The crisis was unique in a number of ways, featuring calculations and miscalculations as well as direct and secret communications and miscommunications between the two sides.</p>
+
+<p>President Kennedy is visited by Soviet Foreign Minister Andrei Gromyko, who asserts that Soviet aid to Cuba is purely defensive and does not represent a threat to the United States. Nonetheless, the United States established a military blockade to prevent further missiles from reaching Cuba. It announced that it would not permit offensive weapons to be delivered to Cuba and demanded that the weapons already in Cuba be dismantled and returned to the USSR.</p>
+
+<p>This committee has been summoned to resolve this issue and bring about peaceful settlements before any drastic steps are taken by either country leading the world into catastrophe. Containing some of the highest ranking officials and authorities from the United States, Soviet Union and the rest of the world, this committee is tasked with the great responsibility of bringing an end to the hostility between the US and the Soviets. Diplomatic, military and political strategies will be tested to the limit as officials over the world handle this delicate issue before it goes out of hand.</p>
+ </div>
+                </div>
+            </div>
+            <div class="modal-footer"> <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a> </div>
+        </div>
+        
+        
+        
+        <div id="disec" class="modal">
+            <div class="modal-content">
+                <div class="row">
+                    <div class="col s12 m4 offset-m4"> <img class="com-logo" src="assets/img/committees/disec.jpg"> </div>
+                    <div class="col s12 m12"> <p>As the second world war drew to a close, DISEC was created as the first major committee of the six committees under the UN General Assembly in 1945. It was initially called Political and Security Committee (POLISEC), but was renamed ‘DISEC’ (1978) in order to center the committee’s discussions on disarmament. 
+DISEC plays a pivotal role in encouraging discussion and debate on various domains such as regulation of arms, nuclear arsenal, threats to international peace and variables affecting conflicts all over the world. All 193 members of DISEC are entitled to a single vote and resolutions are passed through a simple majority.</p>
+
+<p>DISEC not only reflects an international opinion on crucial issues that can change the fabric of international relationships dramatically, but also shapes actions and ideas on fundamental themes that form a pervasive thread across all communication at the global level. Its importance at this turning point in history cannot be emphasized enough.</p>
+
+<h4 id="agenda">Agenda:</h4>
+
+<ol>
+  <li>
+    <p>Formalisation of the ceasefire agreements and eradication of the ceasefire violations with a special focus on mutual beneficence.</p>
+  </li>
+  <li>
+    <p>Reduction of global military spending and arms trade with a specific reference to eradication of arms races.</p>
+  </li>
+</ol>
+ </div>
+                </div>
+            </div>
+            <div class="modal-footer"> <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a> </div>
+        </div>
+        
+        
+        
+        <div id="ecofin" class="modal">
+            <div class="modal-content">
+                <div class="row">
+                    <div class="col s12 m4 offset-m4"> <img class="com-logo" src="assets/img/committees/ecofin.jpg"> </div>
+                    <div class="col s12 m12"> <p>The United Nations General Assembly Second Committee or the Economic and Financial Committee or ECOFIN is one of the six main standing committees of the United Nations General Assembly.  This committee was officially created in 1945. It first met in San Francisco on April 25th, 1945. Its membership is open to all member states of the United Nations as one of the General Assemblies and follows the same parliamentary procedures as any other main organ of the United Nations.</p>
+
+<p>The Second Committee deals with issues relating to economic growth and development such as macroeconomic policy questions (including international trade, international financial system and external debt sustainability), financing for development, sustainable development, human settlements, globalization and interdependence, eradication of poverty, operational activities for development, agriculture development, food security and nutrition, and information and communications technologies for development.</p>
+
+<p>In accordance with the on-going process of revitalization of the General Assembly, the Second Committee is engaged in updating its working methods and practices in order to improve the quality of debates and the impact of their deliberations and decisions, as well as to further streamline the Committee’s agenda and programme of work. It is also looking to cluster the consideration of agenda items thematically, and actively work to reduce the number and length of draft resolutions adopted during its sessions.</p>
+
+<h4 id="agenda">Agenda:</h4>
+
+<ol>
+  <li>
+    <p>Global economic contingencies and freedom of trade with specific reference to Brexit and it’s impact on international financial stability.</p>
+  </li>
+  <li>
+    <p>Negative effects of terrorism and unstable governments on global economic proliferation.</p>
+  </li>
+</ol>
+ </div>
+                </div>
+            </div>
+            <div class="modal-footer"> <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a> </div>
+        </div>
+        
+        
+        
+        <div id="interpol" class="modal">
+            <div class="modal-content">
+                <div class="row">
+                    <div class="col s12 m4 offset-m4"> <img class="com-logo" src="assets/img/committees/interpol.jpg"> </div>
+                    <div class="col s12 m12"> <p>The International Criminal Police Organization or INTERPOL is an international organization facilitating international police cooperation among private and public sectors. It was established in 1945 in its present form, in the wake of World War II.
+The current Secretary-General, Herr Jürgen Stock, is a former deputy head of Germany’s Federal Criminal Police Office.</p>
+
+<p>As always, delegates are expected to work in tandem with each other to ensure mutual assistance between the major police organizations of the world. Working under the constitution of this committee, we expect delegates to deal with some of the most pressing issues that the international community faces. The face of cyber crime has taken on newer facets with alarming rapidity ranging from long term Ponzi schemes and ransomware attacks to terror related activities including illicit arms and drug trade. We hope to achieve a stronger, more robust outlook towards cybercrime and related activities. On the terror front, we have always found ourselves a few steps behind. With extremist Islamist groups changing the lives of millions for the worse, this committee is expected to take a strong and unforgiving stance, to nip terror in the bud and safeguard the world’s population, in areas of the Middle East and the EU. At the end of this conference, we expect to be better prepared for the challenges that may arise.</p>
+
+<h4 id="agenda">Agenda:</h4>
+
+<ol>
+  <li>
+    <p>New challenges to cyber security and dealing with terror related cyber activity.</p>
+  </li>
+  <li>
+    <p>Formulating an action plan to combat transnational terrorism in the EU and Middle East.</p>
+  </li>
+</ol>
+
+ </div>
+                </div>
+            </div>
+            <div class="modal-footer"> <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a> </div>
+        </div>
+        
+        
+        
+        <div id="jcc" class="modal">
+            <div class="modal-content">
+                <div class="row">
+                    <div class="col s12 m4 offset-m4"> <img class="com-logo" src="assets/img/committees/jcc.jpg"> </div>
+                    <div class="col s12 m12"> <blockquote>
+  <p>War does not determine who is right; only who is left ~ Bertrand Russell</p>
+</blockquote>
+
+<p>Revolving around a futuristic out-of-control timeline, in the year 2023 where things are not as well as they seem, where peace may not be the best option, where dilemmas persist even after the right decision, where countries ally with terrorist organisations, where not two countries but two major blocs are at loggerheads- JCC has the best in store in terms of Storyline, Crisis updates and drama!
+Neither factions are righteous, and delegates must play to be the lesser evil. North Koreans gaining access to technology of ICBMs (Inter Continental Ballistic Missiles) makes matters worse as Americans, Japanese and South Koreans are threatened. Donald Trump is no better, making rash decisions during the course of his impeachment creating enemies in once trusted allies! Russia being betrayed by Trump (refer background guide) is all in against America. Pakistan resenting the American dominance gets involved in this mess. India however, pleased with the riddance of IS pick Americans as their allies. Bulgaria is as loyal as ever to North Korea, and are keen to show their hand in international events, while Italy and Israel remain loyal to the US, and are extremely glad the IS is no longer a threat. What awaits is something worse than a World War 3!</p>
+
+<p>Unlike other UN committees, absolute harmony here is clearly impossible as each country is going in its own tangential direction approaching its own agenda making it harder for universal peace. Keeping the crisis open ended enables delegates to let committee flow in any direction and thus is recommended for experienced delegates. 
+ As delegates, your motives will differ, there will be war- small or large scale matters up to you; 
+so according to Bertrand Russell’s quote … try to be left.</p>
+ </div>
+                </div>
+            </div>
+            <div class="modal-footer"> <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a> </div>
+        </div>
+        
+        
+        
+        <div id="lotr" class="modal">
+            <div class="modal-content">
+                <div class="row">
+                    <div class="col s12 m4 offset-m4"> <img class="com-logo" src="assets/img/committees/lotr.jpg"> </div>
+                    <div class="col s12 m12"> <h3 id="middle-earth-at-risk">Middle Earth at Risk!</h3>
+
+<p>Nearly a decade has passed since Sauron’s armies were vanquished by the men and the elves. Aragorn sits as High King of Gondor and the elves have left Middle Earth with young Baggins in tow. From his perch within the Undying Lands, Elrond senses an unsettling energy deep within the cracks of doom which were thought to be destroyed and attributes it to the forging of a new Ring of power.</p>
+
+<p>Increased orc and goblin sightings have the populace on guard and the kings wary. Suspicion is thrown upon breeding of a new species of orcs. With the return of the elves, an emergency council of leaders and remnants of the fellowship under the leadership of Aragorn and Elrond has gathered to combat this threat. What nasty surprises lie in wait for them? What hitherto unknown forces disturb the well deserved peace? Only time can serve witness.</p>
+ </div>
+                </div>
+            </div>
+            <div class="modal-footer"> <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a> </div>
+        </div>
+        
+        
+        
+        <div id="unep" class="modal">
+            <div class="modal-content">
+                <div class="row">
+                    <div class="col s12 m4 offset-m4"> <img class="com-logo" src="assets/img/committees/unep.jpg"> </div>
+                    <div class="col s12 m12"> <p>Every year we dump a massive 2.12 billion tons of waste. If all this waste was put on trucks they would go around the world 24 times. Also, if everyone on Earth lived like the average American, even eight Earth-sized planets wouldn’t be enough to support us.
+The United Nations Environment Programme (UNEP) is the leading global environmental authority that sets the global environmental agenda, promotes the coherent implementation of the environmental dimension of sustainable development within the United Nations system and serves as an authoritative advocate for the global environment.</p>
+
+<p>Established in 1972 to guide and coordinate environmental activities within the United Nations, UNEP promotes international cooperation on environmental issues, provides guidance to UN organizations and through its scientific advisory groups encourages the international scientific community to participate in formulating policies for many of the UN’s environmental projects. Headquartered in Nairobi, Kenya, the organization has also encouraged participation by the private sector to promote the sustainable use of the world’s natural resources.</p>
+
+<p>It’s goals encompass:</p>
+
+<ul>
+  <li>Assessing global, regional and national environmental conditions and trends</li>
+  <li>Developing international and national environmental instruments</li>
+  <li>Strengthening institutions for the wise management of the environment</li>
+</ul>
+
+<p>Its mission is to provide leadership and encourage partnership in caring for the environment by inspiring, informing, and enabling nations and people to improve their quality of life without compromising that of future generations. We urge you, the representatives of the global community, to engage in the discussions of the edgy reality that we live in to improve and optimize it.</p>
+
+<h4 id="agenda">Agenda:</h4>
+
+<ol>
+  <li>
+    <p>Implementation of the sustainable development goals, with special emphasis on the Paris agreement.</p>
+  </li>
+  <li>
+    <p>Legislations and governance with respect to the use of Genetically Modified Organisms (GMOs)</p>
+  </li>
+</ol>
+ </div>
+                </div>
+            </div>
+            <div class="modal-footer"> <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a> </div>
+        </div>
+        
+        
+        
+        <div id="unhcr" class="modal">
+            <div class="modal-content">
+                <div class="row">
+                    <div class="col s12 m4 offset-m4"> <img class="com-logo" src="assets/img/committees/unhcr.jpg"> </div>
+                    <div class="col s12 m12"> <p>The office of the United Nations High Commissioner for Refugees (UNHCR), also known as the UN Refugee Agency, is a United Nations programme mandated to protect and support refugees at the request of a government or the UN itself and assists in their voluntary repatriation, local integration or resettlement to a third country.</p>
+
+<p>We work to ensure that everybody has the right to seek asylum and find safe refuge, having fled violence, persecution, war or disaster at home. Since 1950, we have faced multiple crises on multiple continents and provided vital assistance to refugees, asylum seekers, internally displaced and stateless people, many of whom have nobody left to turn to. We help save lives and build better futures for millions forced away from home.</p>
+
+<h4 id="agenda">Agenda:</h4>
+
+<p>Agenda 1: Discussing possible measures that can be taken to further develop cross border cooperation for the assistance of refugees, migrants and asylum seekers.</p>
+
+<p>Agenda 2: Addressing the question of Human Rights in Eritrea with respect to cross border smuggling of refugees</p>
+ </div>
+                </div>
+            </div>
+            <div class="modal-footer"> <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a> </div>
+        </div>
+        
+        
+        
+        <div id="unsc" class="modal">
+            <div class="modal-content">
+                <div class="row">
+                    <div class="col s12 m4 offset-m4"> <img class="com-logo" src="assets/img/committees/unsc.jpg"> </div>
+                    <div class="col s12 m12"> <p>The Security Council held its first session on 17 January 1946 after World War II at Church House, Westminster, London. Since then, the UNSC has been headquartered in New York City. 
+The Security Council takes the lead in determining the existence of a threat to the peace or act of aggression. It calls upon the parties to a dispute to settle it by peaceful means and recommends methods of adjustment or terms of settlement. In some cases, the Security Council can resort to imposing sanctions or even authorize the use of force to maintain or restore international peace and security. The Security Council also recommends to the General Assembly the appointment of the Secretary-General and the admission of new Members to the United Nations.</p>
+
+<p>While the other committees of the UN make recommendations to states, only the UNSC has the power to make decisions that member states have to oblige to and eventually implement. Only the UNSC has the power to issue binding resolutions to member states.<br>
+The Security Council has a total of 15 members of which 5 (United States, United Kingdom, China, Russia and France) are permanent members and the rest are temporary members elected for two-year terms by the General Assembly. The five permanent members have the power to veto a possible resolution which cannot stop the discussion/debate, but can prevent the adoption of the resolution itself.</p>
+
+<h4 id="agenda">Agenda:</h4>
+
+<ol>
+  <li>
+    <p>To drastically curb the flow of arms and other disruptive factors to ensure citizen safety in South Sudan and neighbouring countries amid hostility, internal conflicts and the constant threat of extremist groups.</p>
+  </li>
+  <li>
+    <p>Prevention of conflict through formation of a subsidiary organ that works with member states to monitor internal issues.</p>
+  </li>
+</ol>
+
+ </div>
+                </div>
+            </div>
+            <div class="modal-footer"> <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a> </div>
+        </div>
+        
+        
+        <!-- /ps-container -->
+    </div>
+    <div id="cal" class="blue-grey lighten-5" style="display: none;">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m12">
+                    <h3> Delegate Preparation Resources </h3>
+                    <p class="light">All Delegates are requested to read the Delegate Handbook, and their respective committees' background guides </p>
+                </div>
+                <div class="col s12 m6 card">
+                    <div>
+                        <h4 class="card-title">Delegate Handbook</h4>
+                    </div>
+                    <div class="card-action">
+                        <a target="_blank" href="https://drive.google.com/open?id=0BzYdwVkrovIFRlN4SUVCOV82ZzQ">Click Here</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m6 card">
+                    <div>
+                        <h4 class="card-title">Background Guides</h4>
+                    </div>
+                    <div class="card-action">
+                        <a target="_blank" href="https://drive.google.com/drive/u/4/folders/0B0mA5oH-Ay3oRnhMV1hBdUVQWEE">Click Here</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="team" class="col s12">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m12">
+                    <h3>Team</h3>
+                    <ul class="collapsible popout" data-collapsible="accordion">
+                        <li>
+                            <div class="collapsible-header blue-grey lighten-5"><span class="blue-grey-text">Secretary General</span></div>
+                            <div class="collapsible-body">
+                                <p class="center"> Smaran Rao</p>
+                                <p class="center"> Under Secretary Generals: Rithika Srivathsa, Nihal Shetty</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header blue-grey lighten-5"><span class="blue-grey-text">Tech Team</span></div>
+                            <div class="collapsible-body">
+                                <p class="center"> Aniruddha Mysore, Sameer Kolhar, Aditya Venkatraman</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header blue-grey lighten-5"><span class="blue-grey-text">Research Team</span></div>
+                            <div class="collapsible-body">
+                                <p class="center"> Shreyes Jayaram, Nikhil, Vishnu</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header blue-grey lighten-5"><span class="blue-grey-text">Press</span></div>
+                            <div class="collapsible-body">
+                                <p class="center"> Aniruddh Hari, Niraj Iyer, Ruchir Ravishankar, Sitara Kumbale</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header blue-grey lighten-5"><span class="blue-grey-text">Finance Team</span></div>
+                            <div class="collapsible-body">
+                                <p class="center"> Sushruth, Aditya Pandey, Keerthana Yalla, Sanjana Krishnam</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header blue-grey lighten-5"><span class="blue-grey-text">Operations</span></div>
+                            <div class="collapsible-body">
+                                <p class="center"> Vishal, Krishna Prasad, Rupith, Shwetha Subbu, Rahul Dixit</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="vendor/materialize/js/materialize.js"></script>
+    <script src="assets/js/init.js"></script>
+    <script type="text/javascript" src="assets/js/slider.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            Slider.init();
+        });
+    </script>
+    <script> 
+        Materialize.toast('Please click Login to see your registration status', 4000) // 4000 is the duration of the toast
+    </script><div id="toast-container"></div>
+
+
+
+<div class="hiddendiv common"></div><div class="drag-target" data-sidenav="nav-mobile" style="left: 0px; touch-action: pan-y; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></div></body></html>
