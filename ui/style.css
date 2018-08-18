@@ -19,4 +19,8 @@ body {
 .img-medium {
     height: 200px;
 }
+.st{
+    background-color:red;
+    color:yellow;
+    }
 
