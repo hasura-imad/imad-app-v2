@@ -1,22 +1,50 @@
-body {
-    font-family: sans-serif;
-    background-color: lightgrey;
-    margin-top: 75px;
+#body{
+    background-color:grey;
 }
 
-.center {
-    text-align: center;
+#test{
+    text-align:center;
+    font-family:serif;
+    color:white;
+    letter-spacing:2px;
+    font-size:70px;
+    text-shadow:5px 3px 25px white;
+    padding:5px;
+    border:2px lightskyblue;
+    border-radius:30px;
 }
 
-.text-big {
-    font-size: 300%;
-}
 
-.bold {
-    font-weight: bold;
+#text{
+    text-align:center;
+    color:white;
+    letter-spacing:3px;
 }
-
-.img-medium {
-    height: 200px;
+#text2{
+    margin-top:10%;
+    text-align:center;
+    font-family:Arial;
+    color:white;
+    letter-spacing:3px;
+    word-spacing:4px;
+    text-shadow:5px 3px 20px lightskyblue;
+    
 }
-
+#b1{
+    text-align:center;
+    font-weight:bold;
+}
+#ttt{
+    color:white;
+    text-align:center;
+    padding:5px;
+    border:2px lightskyblue;
+    font-family:serif;
+    border-radius:30px;
+}
+#all{
+    padding:5px;
+    border:5px solid lightskyblue;
+    font-family:serif;
+    border-radius:30px;
+}
